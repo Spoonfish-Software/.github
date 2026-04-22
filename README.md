@@ -1,21 +1,17 @@
 # .github
 
-This repository holds organization-wide defaults for [`spoonfish-software`](https://github.com/spoonfish-software).
+The public face of [`spoonfish-software`](https://github.com/spoonfish-software) on GitHub.
 
-Files here apply across every repo in the org unless a repo provides its own version.
+This repo is public by design. Anything committed here is visible to anyone on the internet — treat it as org-level published material, not a scratchpad.
 
 ## What lives here
 
 - **`profile/README.md`** — the landing page shown at [github.com/spoonfish-software](https://github.com/spoonfish-software).
-
-Future additions (as needs arise):
-
-- **Issue and pull request templates** (`ISSUE_TEMPLATE/`, `PULL_REQUEST_TEMPLATE.md`) — default forms used by any repo that doesn't define its own.
-- **Reusable GitHub Actions workflows** (`workflows/`) — shared CI pieces callable from other repos.
-- **Community health files** — `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`.
+- **Org-level GitHub defaults** — issue and pull request templates, reusable workflows, and community health files (`CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`) as we add them. These apply to every repo in the org that doesn't provide its own version.
+- **Other public-facing org content** — anything else we want to publish under the Spoonfish name that isn't tied to a specific product repo.
 
 ## Editing
 
-Changes to `profile/README.md` are visible to anyone who visits the org page, including people outside the org. Everything else here is seen only by org members and contributors.
+Open a pull request for any change. Changes are live as soon as the PR merges to the default branch.
 
-Open a pull request for any change. The org page updates as soon as the PR merges to the default branch.
+Before committing, ask: *is this okay for anyone to read?* If not, it doesn't belong in this repo.
